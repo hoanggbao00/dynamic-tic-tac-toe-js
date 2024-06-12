@@ -13,5 +13,5 @@ Idea Function: Start from where last move is, then check below situations
 
 ## Test
 By open `game.js` then change the below variable to test change
-`dimension`: boardSize _(ex: 5 is 5x5 board)_
-`winLine`: line to win _(ex: 3, just need 3 line nearby to win)_
++ `dimension`: boardSize _(ex: 5 is 5x5 board)_
++ `winLine`: line to win _(ex: 3, just need 3 line nearby to win)_
