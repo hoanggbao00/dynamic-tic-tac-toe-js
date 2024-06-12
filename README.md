@@ -8,10 +8,10 @@ Replace old check win function - which is check same as size of dimension (board
 Idea Function: Start from where last move is, then check below situations
 + Check Horizontal: check left and right with `col±1`
 + Check Vertical:  check up and down with `row±1`
-+ Check Diagonal: with UP-LEFT_(row-1/col-1)_ & DOWN-RIGHT_(row+1/col+1)_
-+ Check Reverse Diagonal: with DOWN-LEFT_(row+1/col-1)_ & UP-RIGHT_(row-1/col+1)_
++ Check Diagonal: with UP-LEFT _(row-1/col-1)_ & DOWN-RIGHT _(row+1/col+1)_
++ Check Reverse Diagonal: with DOWN-LEFT _(row+1/col-1)_ & UP-RIGHT _(row-1/col+1)_
 
 ## Test
 By open `game.js` then change the below variable to test change
-`dimension`: boardSize (ex: 5 is 5x5 board)
-`winLine`: line to win (ex: 3, just need 3 line nearby to win)
+`dimension`: boardSize _(ex: 5 is 5x5 board)_
+`winLine`: line to win _(ex: 3, just need 3 line nearby to win)_
